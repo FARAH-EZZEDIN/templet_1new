@@ -1,0 +1,45 @@
+
+/* ****** Star Setion Offer******* */
+.offer {
+
+}
+
+.offer-content {
+   overflow: hidden;
+    
+}
+
+.offer-item {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    padding: 20px 15px 30px 70px;
+    position: relative;
+}
+
+.offer-item.mg {
+    margin: 0 5%
+}
+
+.offer-item .icon {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    color: var(--bluecolor);
+}
+
+.offer-item-title {
+    text-transform: capitalize;
+    padding-bottom: 15px;
+    transition: color 0.5s;
+}
+
+.offer-item-desc {
+    line-height: 1.6;;
+}
+
+.offer-item:hover .offer-item-title {
+    color:#fff;
+}
+/* ******  End Setion Offer******* */
